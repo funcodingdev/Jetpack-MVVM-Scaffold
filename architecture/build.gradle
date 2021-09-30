@@ -65,8 +65,8 @@ dependencies {
     api 'com.kunminx.arch:smooth-navigation:3.9.0-beta1'
     api 'com.kunminx.arch:strict-databinding:4.0.0-beta1'
 
-    api project(':domain')
-    api project(':data')
+    api project(':Jetpack-MVVM-Scaffold:domain')
+    api project(':Jetpack-MVVM-Scaffold:data')
 
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.6'
 
